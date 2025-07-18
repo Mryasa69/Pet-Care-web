@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("image03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    color: white;
+}
+
+.left-l {
+    height: 50px;
+    display: flex;
+    float: left;
+}
+
+.right-l {
+    height: 50px;
+    display: flex;
+    float: right;
+}
+
+.header2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+}
+
+.nav {
+    width: auto;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    font-size: 20px;
+    display: inline-block;
+    justify-content: reverse;
+    padding-left: 10px;
+    float: right;
+    padding-right: 10px;
+    &:hover{
+        background-color: red;
+    }
+
+}
+
+
+.nav ul li a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+.reviews-section {
+      background-color: grey;
+      padding: 2rem;
+      text-align: center;
+      height: 90vh;
+    }
+
+    .section-title {
+      font-size: 24px;
+      color: #c3aa3f;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      text-align: left;
+    }
+    
+    .hr {
+      width: 60%;            
+      border: 2px solid white; 
+      margin: 10px auto;
+         
+    }
+
+    .line{
+        width: 250px;
+        border: 4px solid white;
+        margin: 0%;
+    }
+
+
+    .review-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      
+    }
+
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      height: 500px;
+    }
+
+    .card p{
+        font-family: Lucida Handwriting;
+    }
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 1rem 0;
+    }
+
+    .footer {
+    height: 400px;
+    background-color: black;
+    width: 100%;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.footer-coloum {
+    flex: 1 1 22%;
+    margin: 10px;
+    min-width: 200px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.bottom-logo1 {
+    border-radius: 50%;
+    border: 5px solid red;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.footer-logo1-p {
+    font-family: Lucida Handwriting;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inf-logo-1 img {
+    height: 35px;
+    border-radius: 50%;
+    display: flexbox;
+}
+
+.inf-logo-2 img {
+    height: 35px;
+    border-radius: 50%;
+    display: block;
+}
+
+.inf-logo-3 img {
+    height: 35px;
+    border-radius: 50%;
+    display: block;
+}
+
+.footer-col h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-coloum ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-coloum ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.last-updated {
+    height: 30px;
+    padding-top: 4px;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+}
+
+.bottom-logo {
+    width: 250px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.footer-logo1-p {
+    text-align: center;
+    font-size: 16px;
+}
